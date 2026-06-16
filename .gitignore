@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/interim/
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.pkl
+*.joblib
+.env
+.env.*
+!.env.example

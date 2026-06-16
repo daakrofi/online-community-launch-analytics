@@ -1,0 +1,20 @@
+Variable,Coefficient,Std Err,t,P>|t|,[0.025,0.975]
+Intercept,0.1625,0.011,14.201,0.0,0.14,0.185
+critic_recpt_positive_True[T.True],0.0346,0.004,7.93,0.0,0.026,0.043
+user_recpt_positive_True[T.True],0.0528,0.005,10.401,0.0,0.043,0.063
+hope_freq_30days_std,0.0622,0.004,17.409,0.0,0.055,0.069
+hope_freq_30days_std:critic_recpt_positive_True[T.True],-0.0185,0.002,-7.551,0.0,-0.023,-0.014
+hope_freq_30days_std:user_recpt_positive_True[T.True],0.0059,0.002,3.079,0.002,0.002,0.01
+hope_freq_30days_sq_log,-0.0288,0.002,-12.206,0.0,-0.033,-0.024
+hype_freq_30days_std,-0.0453,0.003,-16.914,0.0,-0.051,-0.04
+hype_freq_30days_std:critic_recpt_positive_True[T.True],0.0119,0.002,7.062,0.0,0.009,0.015
+hype_freq_30days_std:user_recpt_positive_True[T.True],0.0275,0.004,6.446,0.0,0.019,0.036
+hype_freq_30days_sq_log,0.0089,0.002,4.398,0.0,0.005,0.013
+sequel,0.0347,0.001,25.839,0.0,0.032,0.037
+franchise,-0.0797,0.004,-18.629,0.0,-0.088,-0.071
+release_window,-0.0075,0.001,-8.368,0.0,-0.009,-0.006
+post_score,4.019e-07,9.89e-08,4.063,0.0,2.08e-07,5.96e-07
+post_num_comments,-7.456e-07,1.43e-07,-5.228,0.0,-1.03e-06,-4.66e-07
+activity,-0.0163,0.001,-17.518,0.0,-0.018,-0.014
+p_length,0.0027,4.54e-05,59.048,0.0,0.003,0.003
+wait_rank,-0.0006,0.001,-0.945,0.345,-0.002,0.001

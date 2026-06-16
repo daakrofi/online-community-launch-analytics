@@ -1,0 +1,7 @@
+variable,coefficient,interpretation
+hope_count,0.13508174189899413,Community evocation of future-oriented hope language
+post_sent_score,0.1287361817465427,Sentiment score of the negative/dysfunction post
+release_window,0.005385722657862515,Whether the post falls within the launch window
+total_comments,0.0,Number of comments received by the post
+post_length,-0.05787046266304352,Word length of the original post
+hype_count,-0.0757927612176523,Community attention to promotion/expectations language
